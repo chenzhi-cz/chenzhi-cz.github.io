@@ -5,17 +5,13 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
-
-You can also find my articles on [my Google Scholar profile](https://scholar.google.com/citations?user=vRIKYD8AAAAJ&hl=en&oi=ao).
+<div class="wordwrap">You can also find my articles on <a href="https://scholar.google.com/citations?user=vRIKYD8AAAAJ&hl=en&oi=ao">my Google Scholar profile</a>.</div>
 
 {% include base_path %}
 
 <!-- New style rendering if publication categories are defined -->
 {% if site.publication_category %}
-  {% for category in site.publication_category  %}
+  {% for category in site.publication_category %}
     {% assign title_shown = false %}
     {% for post in site.publications reversed %}
       {% if post.category != category[0] %}
@@ -34,15 +30,17 @@ You can also find my articles on [my Google Scholar profile](https://scholar.goo
   {% endfor %}
 {% endif %}
 
-## Publications
+<h2>Publications</h2>
 
-### 1. Promise and Peril of Collaborative Code Generation Models: Balancing Effectiveness and Memorization
-**Zhi Chen**, Lingxiao Jiang  
-The 39th IEEE/ACM International Conference on Automated Software Engineering (ASE 2024)  
-(13 pages, Research Track.) Sacramento, California, USA. October 27 - November 1, 2024.  
-[arXiv](https://arxiv.org/pdf/2409.12020)
+<!-- First Paper -->
+<h3>1. Promise and Peril of Collaborative Code Generation Models: Balancing Effectiveness and Memorization</h3>
+<p><strong>Zhi Chen</strong>, Lingxiao Jiang<br/>
+The 39th IEEE/ACM International Conference on Automated Software Engineering (ASE 2024)<br/>
+(13 pages, Research Track) Sacramento, California, USA. October 27 - November 1, 2024.<br/>
+<a href="https://arxiv.org/pdf/2409.12020">arXiv</a></p>
 
-### 2. Evaluating Software Development Agents: Patch Patterns, Code Quality, and Issue Complexity in Real-World GitHub Scenarios
-**Zhi Chen**, Lingxiao Jiang  
-(*Currently under review*)  
-[arXiv](https://arxiv.org/pdf/2410.12468)
+<!-- Second Paper -->
+<h3>2. Evaluating Software Development Agents: Patch Patterns, Code Quality, and Issue Complexity in Real-World GitHub Scenarios</h3>
+<p><strong>Zhi Chen</strong>, Lingxiao Jiang<br/>
+(*Currently under review*)<br/>
+<a href="https://arxiv.org/pdf/2410.12468">arXiv</a></p>
