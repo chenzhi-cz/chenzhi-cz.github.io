@@ -8,9 +8,9 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Chen Zhi's Personal Website"
+title                    : "Zhi Chen"
 title_separator          : "-"
-name                     : &name "Chen Zhi (陈智)"
+name                     : &name "Zhi Chen (陈智)"
 description              : &description ""
 url                      : https://chenzhi-cz.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -22,7 +22,7 @@ repository               : "chenzhi-cz/chenzhi-cz.github.io"
 author:
   # Biographic information
   avatar           : "me.jpg"
-  name             : "Chen Zhi (陈智)"
+  name             : "Zhi Chen (陈智)"
   pronouns         : # example: "she/her"  
   bio              : "PhD student in Computer Science at Singapore Management University (SMU)."
   location         : "Singapore"
