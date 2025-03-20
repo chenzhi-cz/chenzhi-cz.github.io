@@ -34,11 +34,11 @@ redirect_from:
 ## Professional Experience
 
 - **Sea Limited**  
-  *Backend Software Engineer - Sea Labs*  
+  *Software Engineer - Sea Labs*  
   Aug. 2022 -- Jul. 2023, Singapore
 
 - **Shanghai Baosight Software Co., Ltd.**  
-  *Backend Software Engineer - Cloud Application Department*  
+  *Software Engineer - Cloud Application Department*  
   Aug. 2020 -- Jul. 2021, Shanghai, China
 
 - **Lenovo Group, LCFC (Hefei) Electronics Technology Co., Ltd.**  
