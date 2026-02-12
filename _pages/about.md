@@ -19,8 +19,7 @@ redirect_from:
       <p class="home-summary">
         I am a PhD student at the <a href="https://rise.smu.edu.sg/" target="_blank" rel="noopener">Centre for Research on Intelligent Software Engineering (RISE)</a>,
         advised by <a href="https://faculty.smu.edu.sg/profile/jiang-lingxiao-896" target="_blank" rel="noopener">Professor Lingxiao Jiang</a>.
-        My work studies how software development agents behave in real-world settings, how to evaluate them rigorously,
-        and how to enhance their capability in practical engineering workflows.
+        My research focuses on software development agents in real-world settings: understanding their behavior, evaluating them rigorously, and improving their capability in practical engineering workflows.
       </p>
       <div class="home-actions">
         <a href="#publications" class="home-btn">View Publications</a>
