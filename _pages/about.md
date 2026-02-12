@@ -259,7 +259,6 @@ redirect_from:
       <a href="https://info.flagcounter.com/dgi0" target="_blank" rel="noopener">
         <img src="https://s01.flagcounter.com/map/dgi0/size_m/txt_1D3657/border_CFE0F2/pageviews_1/viewers_1/flags_0/" alt="Visitor map and count">
       </a>
-      <p>Global visitors and regional distribution.</p>
     </div>
   </section>
 </div>
