@@ -150,6 +150,24 @@ body {
   line-height: 1.72;
 }
 
+.home-summary a {
+  color: #0b4f83;
+  font-weight: 600;
+  text-decoration: underline;
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 0.14em;
+  transition: color 0.18s ease, background-color 0.18s ease;
+}
+
+.home-summary a:visited {
+  color: #0b4f83;
+}
+
+.home-summary a:hover {
+  color: #072f53;
+  background-color: rgba(11, 79, 131, 0.08);
+}
+
 .home-actions {
   display: flex;
   flex-wrap: wrap;
