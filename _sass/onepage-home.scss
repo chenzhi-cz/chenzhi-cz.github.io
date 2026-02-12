@@ -16,7 +16,7 @@ html {
 body {
   background: linear-gradient(180deg, #f5f9ff 0%, #ffffff 38%, #f9fbfd 100%);
   color: var(--home-ink);
-  padding-bottom: 4.6em;
+  padding-bottom: 1.2em;
 }
 
 .masthead {
@@ -474,12 +474,15 @@ body {
 }
 
 .page__footer {
+  position: static;
+  float: none;
+  bottom: auto;
   margin-top: 0.65em;
 }
 
 .page__footer footer {
-  margin-top: 0.45em;
-  padding-bottom: 0.6em;
+  margin-top: 0;
+  padding: 0.45em 1em 0.65em;
 }
 
 .page__footer-copyright--simple {
