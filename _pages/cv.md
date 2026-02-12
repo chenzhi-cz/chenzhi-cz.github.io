@@ -33,6 +33,15 @@ redirect_from:
 
 ## Professional Experience
 
+- **TikTok AI Innovation Center**  
+  *R&D Intern*  
+  Dec. 2025 -- Present
+
+- **Noah's Lab**  
+  *Research Intern*  
+  Apr. 2025 -- Aug. 2025
+  *Project: Deep Research Agent*
+
 - **Sea Limited**  
   *Software Engineer - Sea Labs*  
   Aug. 2022 -- Jul. 2023, Singapore
