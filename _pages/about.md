@@ -22,9 +22,9 @@ redirect_from:
         and how to improve their reliability in practical engineering workflows.
       </p>
       <div class="home-actions">
-        <a href="#publications" class="home-btn home-btn--primary">View Publications</a>
+        <a href="#publications" class="home-btn">View Publications</a>
         <a href="#experience" class="home-btn">View Experience</a>
-        <a href="mailto:zhi.chen.2023@phdcs.smu.edu.sg" class="home-btn home-btn--ghost">Email Me</a>
+        <a href="mailto:zhi.chen.2023@phdcs.smu.edu.sg" class="home-btn">Email Me</a>
       </div>
     </div>
     <aside class="home-hero__panel">
@@ -134,11 +134,11 @@ redirect_from:
       <article class="timeline__item">
         <p class="timeline__date">Dec. 2025 - Present</p>
         <h3>TikTok AI Innovation Center</h3>
-        <p>R&D Intern</p>
+        <p>R&D Intern | Project: Code Agent</p>
       </article>
       <article class="timeline__item">
         <p class="timeline__date">Apr. 2025 - Aug. 2025</p>
-        <h3>Noah's Lab</h3>
+        <h3>Noah's Ark Lab</h3>
         <p>Research Intern | Project: Deep Research Agent</p>
       </article>
       <article class="timeline__item">
