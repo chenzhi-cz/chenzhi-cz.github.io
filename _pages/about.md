@@ -143,8 +143,8 @@ redirect_from:
       </article>
       <article class="timeline__item">
         <p class="timeline__date">Aug. 2022 - Jul. 2023</p>
-        <h3>Sea Limited, Sea Labs (Singapore)</h3>
-        <p>Software Engineer</p>
+        <h3>Sea Labs</h3>
+        <p>Engineer</p>
       </article>
       <article class="timeline__item">
         <p class="timeline__date">Aug. 2020 - Jul. 2021</p>
