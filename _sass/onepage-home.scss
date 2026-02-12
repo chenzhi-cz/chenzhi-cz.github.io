@@ -16,7 +16,7 @@ html {
 body {
   background: linear-gradient(180deg, #f5f9ff 0%, #ffffff 38%, #f9fbfd 100%);
   color: var(--home-ink);
-  padding-bottom: 6.3em;
+  padding-bottom: 4.6em;
 }
 
 .masthead {
@@ -451,12 +451,12 @@ body {
 }
 
 .home-section--visitors {
-  margin-bottom: 0.2rem;
+  margin-bottom: 0;
 }
 
 .visitor-map {
   border-top: 1px solid var(--home-line);
-  padding-top: 0.85rem;
+  padding-top: 0.55rem;
   text-align: center;
 }
 
@@ -474,7 +474,16 @@ body {
 }
 
 .page__footer {
-  margin-top: 1.5em;
+  margin-top: 0.65em;
+}
+
+.page__footer footer {
+  margin-top: 0.45em;
+  padding-bottom: 0.6em;
+}
+
+.page__footer-copyright--simple {
+  text-align: center;
 }
 
 @keyframes home-rise {
