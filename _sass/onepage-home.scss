@@ -217,9 +217,18 @@ body {
 }
 
 .home-link-list a {
-  display: block;
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
   padding: 0.52rem 0;
   font-weight: 500;
+}
+
+.home-link-list a i {
+  width: 1rem;
+  text-align: center;
+  color: var(--home-brand);
+  font-size: 0.95rem;
 }
 
 .home-meta {

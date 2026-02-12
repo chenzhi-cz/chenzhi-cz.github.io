@@ -30,10 +30,18 @@ redirect_from:
     <aside class="home-hero__panel">
       <h2>Quick Links</h2>
       <ul class="home-link-list">
-        <li><a href="https://scholar.google.com/citations?user=vRIKYD8AAAAJ&hl=en&oi=ao" target="_blank" rel="noopener">Google Scholar</a></li>
-        <li><a href="https://orcid.org/0009-0006-4631-9174" target="_blank" rel="noopener">ORCID</a></li>
-        <li><a href="https://www.linkedin.com/in/zhi-chen-838aa3195" target="_blank" rel="noopener">LinkedIn</a></li>
-        <li><a href="/cv/">CV Page</a></li>
+        <li>
+          <a href="https://scholar.google.com/citations?user=vRIKYD8AAAAJ&hl=en&oi=ao" target="_blank" rel="noopener">
+            <i class="ai ai-google-scholar" aria-hidden="true"></i>
+            <span>Google Scholar</span>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/zhi-chen-838aa3195" target="_blank" rel="noopener">
+            <i class="fab fa-linkedin" aria-hidden="true"></i>
+            <span>LinkedIn</span>
+          </a>
+        </li>
       </ul>
       <div class="home-meta">
         <p><strong>Location</strong><span>Singapore</span></p>
