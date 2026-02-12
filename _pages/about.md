@@ -17,9 +17,9 @@ redirect_from:
         PhD Student in Computer Science at Singapore Management University (SMU), focusing on AI-driven software engineering.
       </p>
       <p class="home-summary">
-        I am a PhD student at the <a href="https://rise.smu.edu.sg/" target="_blank" rel="noopener">Centre for Research on Intelligent Software Engineering (RISE)</a>,
+        I am with the <a href="https://rise.smu.edu.sg/" target="_blank" rel="noopener">Centre for Research on Intelligent Software Engineering (RISE)</a>,
         advised by <a href="https://faculty.smu.edu.sg/profile/jiang-lingxiao-896" target="_blank" rel="noopener">Professor Lingxiao Jiang</a>.
-        My research focuses on software development agents in real-world settings: understanding their behavior, evaluating them rigorously, and improving their capability in practical software development lifecycle.
+        My research focuses on software development agents in real-world settings, with emphasis on rigorous evaluation and capability enhancement across the software development lifecycle.
       </p>
       <div class="home-actions">
         <a href="#publications" class="home-btn">View Publications</a>
