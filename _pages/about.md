@@ -238,7 +238,7 @@ redirect_from:
     </div>
     <div class="contact-card">
       <p>
-        I am open to collaborations focused on code agents, especially on rigorous evaluation and practical methods to improve reliability and real-world performance.
+        I am open to collaborations focused on code agents, especially on rigorous evaluation and practical methods to improve capability and real-world performance.
       </p>
       <p>
         Email: <a href="mailto:zhi.chen.2023@phdcs.smu.edu.sg">zhi.chen.2023@phdcs.smu.edu.sg</a>
