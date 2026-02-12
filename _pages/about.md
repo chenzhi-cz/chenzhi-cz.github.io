@@ -45,6 +45,12 @@ redirect_from:
             <span>LinkedIn</span>
           </a>
         </li>
+        <li>
+          <a href="https://orcid.org/0009-0006-4631-9174" target="_blank" rel="noopener">
+            <i class="ai ai-orcid" aria-hidden="true"></i>
+            <span>ORCID</span>
+          </a>
+        </li>
       </ul>
     </aside>
   </section>
