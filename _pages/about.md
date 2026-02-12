@@ -49,21 +49,21 @@ redirect_from:
     </div>
     <div class="home-card-grid">
       <article class="home-card">
-        <h3>Evaluation of Software Development Agents</h3>
+        <h3>Code Agent for Practical Software Engineering</h3>
+        <p>
+          Designing strategies that make code agents more useful for developers in industrial settings, balancing effectiveness, memorization risk, and trustworthiness.
+        </p>
+      </article>
+      <article class="home-card">
+        <h3>Code Agent Evaluation in Real-World Repositories</h3>
         <p>
           Building realistic benchmarks and analysis methods to measure patch quality, process behavior, and issue-level performance in real-world repositories.
         </p>
       </article>
       <article class="home-card">
-        <h3>Failure Analysis and Robustness</h3>
+        <h3>Code Agent Failure Analysis and Robustness</h3>
         <p>
-          Studying where and why agent workflows fail beyond final code outputs, with process-oriented diagnostics to improve reliability.
-        </p>
-      </article>
-      <article class="home-card">
-        <h3>AI for Practical Software Engineering</h3>
-        <p>
-          Designing strategies that make AI systems more useful for developers in industrial settings, balancing effectiveness, memorization risk, and trustworthiness.
+          Studying where and why code-agent workflows fail beyond final code outputs, with process-oriented diagnostics to improve reliability.
         </p>
       </article>
     </div>
