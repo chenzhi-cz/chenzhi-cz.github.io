@@ -47,6 +47,11 @@ redirect_from:
         <p><strong>Location</strong><span>Singapore</span></p>
         <p><strong>Affiliation</strong><span>Singapore Management University</span></p>
       </div>
+      <div class="home-schoolmark">
+        <a href="https://www.smu.edu.sg/" target="_blank" rel="noopener">
+          <img src="{{ '/images/smu-logo-official.jpg' | relative_url }}" alt="Singapore Management University official logo">
+        </a>
+      </div>
     </aside>
   </section>
 

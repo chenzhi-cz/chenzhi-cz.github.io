@@ -268,6 +268,23 @@ body {
   font-weight: 600;
 }
 
+.home-schoolmark {
+  margin-top: 0.85rem;
+  padding-top: 0.8rem;
+  border-top: 1px solid var(--home-line);
+}
+
+.home-schoolmark a {
+  display: block;
+}
+
+.home-schoolmark img {
+  display: block;
+  width: 100%;
+  max-width: 230px;
+  height: auto;
+}
+
 .home-section {
   margin-top: 1.85rem;
   animation: home-rise 0.55s ease both;
