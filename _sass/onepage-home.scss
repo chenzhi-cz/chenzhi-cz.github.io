@@ -215,17 +215,20 @@ body {
 }
 
 .home-profile-photo {
-  margin: 0 0 0.9rem;
+  margin: 0 auto 0.85rem;
+  padding-bottom: 0.8rem;
+  border-bottom: 1px solid var(--home-line);
 }
 
 .home-profile-photo img {
   display: block;
-  width: 100%;
-  max-width: 210px;
-  height: auto;
-  border-radius: 12px;
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  margin: 0 auto;
+  border-radius: 999px;
   border: 1px solid #d3e0ee;
-  box-shadow: 0 8px 18px rgba(15, 36, 63, 0.09);
+  box-shadow: 0 8px 18px rgba(15, 36, 63, 0.12);
 }
 
 .home-hero__panel h2 {
@@ -235,7 +238,7 @@ body {
 
 .home-link-list {
   list-style: none;
-  margin: 0.75rem 0 1rem;
+  margin: 0.5rem 0 0;
   padding: 0;
 }
 
@@ -261,42 +264,6 @@ body {
   text-align: center;
   color: var(--home-brand);
   font-size: 0.95rem;
-}
-
-.home-meta {
-  margin-top: 0.55rem;
-  padding-top: 0.7rem;
-  border-top: 1px solid var(--home-line);
-}
-
-.home-meta p {
-  display: flex;
-  justify-content: space-between;
-  gap: 0.6rem;
-  margin: 0.28rem 0;
-  font-size: 0.87rem;
-}
-
-.home-meta strong {
-  color: var(--home-muted);
-  font-weight: 600;
-}
-
-.home-schoolmark {
-  margin-top: 0.85rem;
-  padding-top: 0.8rem;
-  border-top: 1px solid var(--home-line);
-}
-
-.home-schoolmark a {
-  display: block;
-}
-
-.home-schoolmark img {
-  display: block;
-  width: 100%;
-  max-width: 230px;
-  height: auto;
 }
 
 .home-section {
@@ -512,7 +479,8 @@ body {
   }
 
   .home-profile-photo img {
-    max-width: 180px;
+    width: 132px;
+    height: 132px;
   }
 
   .home-card,
