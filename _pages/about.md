@@ -238,7 +238,7 @@ redirect_from:
     </div>
     <div class="contact-card">
       <p>
-        I am open to collaborations across academia and industry, especially on software engineering agents, evaluation methodology, and practical LLM systems.
+        I am open to collaborations focused on code agents, especially on rigorous evaluation and practical methods to improve reliability and real-world performance.
       </p>
       <p>
         Email: <a href="mailto:zhi.chen.2023@phdcs.smu.edu.sg">zhi.chen.2023@phdcs.smu.edu.sg</a>
