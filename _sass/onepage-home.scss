@@ -16,6 +16,7 @@ html {
 body {
   background: linear-gradient(180deg, #f5f9ff 0%, #ffffff 38%, #f9fbfd 100%);
   color: var(--home-ink);
+  padding-bottom: 6.3em;
 }
 
 .masthead {
@@ -456,6 +457,7 @@ body {
 .visitor-map {
   border-top: 1px solid var(--home-line);
   padding-top: 0.85rem;
+  text-align: center;
 }
 
 .visitor-map a {
@@ -475,6 +477,11 @@ body {
   margin: 0.48rem 0 0;
   font-size: 0.86rem;
   color: var(--home-muted);
+  text-align: center;
+}
+
+.page__footer {
+  margin-top: 1.5em;
 }
 
 @keyframes home-rise {
