@@ -449,6 +449,34 @@ body {
   font-weight: 600;
 }
 
+.home-section--visitors {
+  margin-bottom: 0.2rem;
+}
+
+.visitor-map {
+  border-top: 1px solid var(--home-line);
+  padding-top: 0.85rem;
+}
+
+.visitor-map a {
+  display: inline-block;
+}
+
+.visitor-map img {
+  display: block;
+  width: 100%;
+  max-width: 420px;
+  height: auto;
+  border: 1px solid #d7e5f2;
+  border-radius: 8px;
+}
+
+.visitor-map p {
+  margin: 0.48rem 0 0;
+  font-size: 0.86rem;
+  color: var(--home-muted);
+}
+
 @keyframes home-rise {
   from {
     opacity: 0;
