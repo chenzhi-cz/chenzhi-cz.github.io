@@ -252,7 +252,6 @@ redirect_from:
 
   <section id="visitors" class="home-section home-section--visitors">
     <div class="home-section__head">
-      <p class="home-kicker">Traffic</p>
       <h2>Visitor Map</h2>
     </div>
     <div class="visitor-map">
