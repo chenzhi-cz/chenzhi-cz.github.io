@@ -76,6 +76,14 @@ redirect_from:
     </div>
     <div class="pub-grid">
       <article class="pub-card">
+        <p class="pub-card__meta">ICSE 2026 | Core A*</p>
+        <h3>Beyond Final Code: A Process-Oriented Error Analysis of Software Development Agents in Real-World GitHub Scenarios</h3>
+        <p><strong>Zhi Chen</strong>, Wei Ma, Lingxiao Jiang</p>
+        <p>The 48th International Conference on Software Engineering (ICSE 2026), Rio de Janeiro, Brazil.</p>
+        <p class="pub-card__links"><a href="https://arxiv.org/pdf/2503.12374" target="_blank" rel="noopener">Paper</a></p>
+      </article>
+
+      <article class="pub-card">
         <p class="pub-card__meta">ASE 2024 | Core A*</p>
         <h3>Promise and Peril of Collaborative Code Generation Models: Balancing Effectiveness and Memorization</h3>
         <p><strong>Zhi Chen</strong>, Lingxiao Jiang</p>
@@ -92,22 +100,6 @@ redirect_from:
       </article>
 
       <article class="pub-card">
-        <p class="pub-card__meta">ICSE 2026 | Core A*</p>
-        <h3>Beyond Final Code: A Process-Oriented Error Analysis of Software Development Agents in Real-World GitHub Scenarios</h3>
-        <p><strong>Zhi Chen</strong>, Wei Ma, Lingxiao Jiang</p>
-        <p>The 48th International Conference on Software Engineering (ICSE 2026), Rio de Janeiro, Brazil.</p>
-        <p class="pub-card__links"><a href="https://arxiv.org/pdf/2503.12374" target="_blank" rel="noopener">Paper</a></p>
-      </article>
-
-      <article class="pub-card">
-        <p class="pub-card__meta">arXiv 2025</p>
-        <h3>Reinforcement Learning Foundations for Deep Research Systems: A Survey</h3>
-        <p>Wenjun Li, <strong>Zhi Chen</strong>, Jingru Lin, Hannan Cao, Wei Han, Sheng Liang, Zhi Zhang, Kuicai Dong, Dexun Li, Chen Zhang, Yong Liu</p>
-        <p>arXiv preprint arXiv:2509.06733.</p>
-        <p class="pub-card__links"><a href="https://arxiv.org/pdf/2509.06733" target="_blank" rel="noopener">Paper</a></p>
-      </article>
-
-      <article class="pub-card">
         <p class="pub-card__meta">ML4CS 2025</p>
         <h3>AgentGuard: An Active Threat Discovery System for Package Confusion Using Multi-Agent Collaboration</h3>
         <p>Wei Ma, Yu Li, <strong>Zhi Chen</strong>, Ye Liu, Lingxiao Jiang, Qiang Hu, Junyi Tao</p>
@@ -121,6 +113,14 @@ redirect_from:
         <p><strong>Zhi Chen</strong>, Zhensu Sun, Yuling Shi, Chao Peng, Xiaodong Gu, David Lo, Lingxiao Jiang</p>
         <p>arXiv preprint arXiv:2602.07900.</p>
         <p class="pub-card__links"><a href="https://arxiv.org/abs/2602.07900" target="_blank" rel="noopener">Paper</a></p>
+      </article>
+
+      <article class="pub-card">
+        <p class="pub-card__meta">arXiv 2025</p>
+        <h3>Reinforcement Learning Foundations for Deep Research Systems: A Survey</h3>
+        <p>Wenjun Li, <strong>Zhi Chen</strong>, Jingru Lin, Hannan Cao, Wei Han, Sheng Liang, Zhi Zhang, Kuicai Dong, Dexun Li, Chen Zhang, Yong Liu</p>
+        <p>arXiv preprint arXiv:2509.06733.</p>
+        <p class="pub-card__links"><a href="https://arxiv.org/pdf/2509.06733" target="_blank" rel="noopener">Paper</a></p>
       </article>
     </div>
   </section>
@@ -194,6 +194,10 @@ redirect_from:
       <h2>Awards</h2>
     </div>
     <div class="award-grid">
+      <article class="award-item">
+        <h3>SMU Presidential Doctoral Fellowship</h3>
+        <p>Singapore Management University | 2025</p>
+      </article>
       <article class="award-item">
         <h3>SMU Research Scholarship</h3>
         <p>Singapore Management University | Aug. 2023</p>
