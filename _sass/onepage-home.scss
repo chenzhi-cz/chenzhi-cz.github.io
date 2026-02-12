@@ -214,6 +214,20 @@ body {
   padding: 1.2rem 1.1rem;
 }
 
+.home-profile-photo {
+  margin: 0 0 0.9rem;
+}
+
+.home-profile-photo img {
+  display: block;
+  width: 100%;
+  max-width: 210px;
+  height: auto;
+  border-radius: 12px;
+  border: 1px solid #d3e0ee;
+  box-shadow: 0 8px 18px rgba(15, 36, 63, 0.09);
+}
+
 .home-hero__panel h2 {
   margin: 0;
   font-size: 1.06rem;
@@ -495,6 +509,10 @@ body {
   .pub-card,
   .contact-card {
     padding: 0.9rem 0.84rem;
+  }
+
+  .home-profile-photo img {
+    max-width: 180px;
   }
 
   .home-card,

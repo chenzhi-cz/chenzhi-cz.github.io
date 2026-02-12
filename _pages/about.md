@@ -28,6 +28,9 @@ redirect_from:
       </div>
     </div>
     <aside class="home-hero__panel">
+      <div class="home-profile-photo">
+        <img src="{{ '/images/me.jpg' | relative_url }}" alt="Zhi Chen profile photo">
+      </div>
       <h2>Quick Links</h2>
       <ul class="home-link-list">
         <li>
