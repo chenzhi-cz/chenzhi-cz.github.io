@@ -164,13 +164,13 @@ redirect_from:
       </article>
       <article class="timeline__item">
         <p class="timeline__date">Aug. 2020 - Jul. 2021</p>
-        <h3>Shanghai Baosight Software Co., Ltd. (Shanghai, China)</h3>
+        <h3>Baosight Software Co., Ltd.</h3>
         <p>Software Engineer, Cloud Application Department</p>
       </article>
       <article class="timeline__item">
         <p class="timeline__date">Oct. 2019 - Feb. 2020</p>
-        <h3>Lenovo Group, LCFC (Hefei) Electronics Technology Co., Ltd.</h3>
-        <p>Software Engineer Intern, Research and Development Department</p>
+        <h3>Lenovo Group, LCFC Electronics Technology Co., Ltd.</h3>
+        <p>Software Engineer Intern, R&amp;D Department</p>
       </article>
     </div>
   </section>
