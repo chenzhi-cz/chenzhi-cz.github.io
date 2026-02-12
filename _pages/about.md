@@ -209,7 +209,7 @@ redirect_from:
     <div class="award-grid">
       <article class="award-item">
         <h3>SMU Presidential Doctoral Fellowship</h3>
-        <p>Singapore Management University | 2025</p>
+        <p>Singapore Management University | Aug. 2025</p>
       </article>
       <article class="award-item">
         <h3>SMU Research Scholarship</h3>
