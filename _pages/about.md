@@ -142,6 +142,14 @@ redirect_from:
       </article>
 
       <article class="pub-card">
+        <p class="pub-card__meta">TSE 2026 | Third author</p>
+        <h3>ConfuScope: A Multi-Agent Framework via Hybrid Search and Content-Aware Analysis for Robust Package Confusion Detection</h3>
+        <p>Yu Li, Wei Ma, <strong>Zhi Chen</strong>, Ye Liu, Lingxiao Jiang, Junyi Tao, Hao Liu, Yongqiang Lyu, Qiang Hu</p>
+        <p>Accepted for publication in IEEE Transactions on Software Engineering (TSE).</p>
+        <p class="pub-card__links"><a href="https://arxiv.org/abs/2604.16309" target="_blank" rel="noopener">Paper</a></p>
+      </article>
+
+      <article class="pub-card">
         <p class="pub-card__meta">arXiv preprint | Third author</p>
         <h3>Executing as You Generate: Hiding Execution Latency in LLM Code Generation</h3>
         <p>Zhensu Sun, Zicheng Lin, <strong>Zhi Chen</strong>, Chenguang Yang, Ming Zhou, Lijun Li, David Lo</p>
@@ -155,6 +163,12 @@ redirect_from:
         <p>Wenjun Li, <strong>Zhi Chen</strong>, Jingru Lin, Hannan Cao, Wei Han, Sheng Liang, Zhi Zhang, Kuicai Dong, Dexun Li, Chen Zhang, Yong Liu</p>
         <p>arXiv preprint arXiv:2509.06733.</p>
         <p class="pub-card__links"><a href="https://arxiv.org/pdf/2509.06733" target="_blank" rel="noopener">Paper</a></p>
+      </article>
+
+      <article class="pub-card">
+        <p class="pub-card__meta">Manuscript | Fifth author</p>
+        <h3>Speculative Forking: Turning Idle Wait into Parallel Exploration for Repository Environment Setup</h3>
+        <p>Yuling Shi, Mingchu Zhong, Zhensu Sun, Weihan Peng, <strong>Zhi Chen</strong>, Shilin He, Chengcheng Wan, Kai Cai, Hongyu Zhang, David Lo, Xiaodong Gu</p>
       </article>
     </div>
   </section>
@@ -170,7 +184,7 @@ redirect_from:
         <h3>TikTok | AI Innovation Center</h3>
         <p><strong>Research &amp; Development Intern</strong> | Singapore</p>
         <p><strong>Project:</strong> Multi-Agent Systems for Code Optimization</p>
-        <p>Built an end-to-end multi-agent system covering hotspot localization, optimization generation, and performance evaluation. Contributed across hotspot identification, patch generation, CPU reduction evaluation, service-team coordination, deployment, and validation of production performance gains.</p>
+        <p>Built an end-to-end multi-agent system covering hotspot localization, optimization generation, and performance evaluation. Co-designed the system pipeline; analyzed agent trajectories and refined agent behaviors; enhanced the CPU-gain evaluation platform to support reliable optimization assessment, SFT data curation, and RL reward computation.</p>
       </article>
       <article class="timeline__item">
         <p class="timeline__date">Apr. 2025 - Aug. 2025</p>
@@ -181,7 +195,7 @@ redirect_from:
       </article>
       <article class="timeline__item">
         <p class="timeline__date">Aug. 2022 - Jul. 2023</p>
-        <h3>Sea Group | Sea Labs</h3>
+        <h3>Sea Limited | Sea Labs</h3>
         <p><strong>Software Engineer</strong> | Singapore</p>
         <p><strong>Project:</strong> “Loop” - Survey Platform for Product Incubation</p>
         <p>Launched a production-ready survey platform from 0 to 1 and established its CI/CD pipeline. Developed authentication, survey configuration, notification, and cron modules; implemented data aggregation with goroutines and Redis caching; and visualized survey insights.</p>
@@ -241,6 +255,10 @@ redirect_from:
       <h2>Awards</h2>
     </div>
     <div class="award-grid">
+      <article class="award-item">
+        <h3>Nominated for Global Young Scientists Summit (GYSS) 2027</h3>
+        <p>Singapore Management University | 2026 | Singapore</p>
+      </article>
       <article class="award-item">
         <h3>SMU Presidential Doctoral Fellowship</h3>
         <p>Singapore Management University | 2026 | Singapore</p>

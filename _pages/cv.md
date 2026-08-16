@@ -7,7 +7,7 @@ redirect_from:
   - /resume
 ---
 
-The latest resume was updated on August 14, 2026.
+The latest resume was updated on August 15, 2026.
 
 [Download the current resume (PDF)]({{ '/files/Zhi_Chen_Resume.pdf' | relative_url }}){: .btn .btn--primary target="_blank" rel="noopener" }
 
