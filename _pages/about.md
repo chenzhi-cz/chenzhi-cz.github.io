@@ -94,7 +94,7 @@ redirect_from:
     </div>
     <div class="pub-grid">
       <article class="pub-card">
-        <p class="pub-card__meta">ICSE 2027 | First author</p>
+        <p class="pub-card__meta pub-card__meta--conference">ICSE 2027 | First author</p>
         <h3>Are Performance-Optimization Benchmarks Reliably Measuring Coding Agents?</h3>
         <p><strong>Zhi Chen</strong>, Zhensu Sun, Yuling Shi, David Lo, Lingxiao Jiang</p>
         <p>49th IEEE/ACM International Conference on Software Engineering (ICSE 2027).</p>
@@ -102,7 +102,7 @@ redirect_from:
       </article>
 
       <article class="pub-card">
-        <p class="pub-card__meta">ICSE 2026 | First author</p>
+        <p class="pub-card__meta pub-card__meta--conference">ICSE 2026 | First author</p>
         <h3>Beyond Final Code: A Process-Oriented Error Analysis of Software Development Agents in Real-World GitHub Scenarios</h3>
         <p><strong>Zhi Chen</strong>, Wei Ma, Lingxiao Jiang</p>
         <p>48th International Conference on Software Engineering (ICSE 2026).</p>
@@ -110,7 +110,7 @@ redirect_from:
       </article>
 
       <article class="pub-card">
-        <p class="pub-card__meta">SANER 2025 | First author</p>
+        <p class="pub-card__meta pub-card__meta--conference">SANER 2025 | First author</p>
         <h3>Evaluating Software Development Agents: Patch Patterns, Code Quality, and Issue Complexity in Real-World GitHub Scenarios</h3>
         <p><strong>Zhi Chen</strong>, Lingxiao Jiang</p>
         <p>32nd IEEE International Conference on Software Analysis, Evolution, and Reengineering (SANER 2025).</p>
@@ -118,7 +118,7 @@ redirect_from:
       </article>
 
       <article class="pub-card">
-        <p class="pub-card__meta">ASE 2024 | First author</p>
+        <p class="pub-card__meta pub-card__meta--conference">ASE 2024 | First author</p>
         <h3>Promise and Peril of Collaborative Code Generation Models: Balancing Effectiveness and Memorization</h3>
         <p><strong>Zhi Chen</strong>, Lingxiao Jiang</p>
         <p>39th IEEE/ACM International Conference on Automated Software Engineering (ASE 2024).</p>
@@ -126,7 +126,7 @@ redirect_from:
       </article>
 
       <article class="pub-card">
-        <p class="pub-card__meta">Under Review | First author</p>
+        <p class="pub-card__meta pub-card__meta--review">Under Review | First author</p>
         <h3>Rethinking the Value of Agent-Generated Tests for LLM-Based Software Engineering Agents</h3>
         <p><strong>Zhi Chen</strong>, Zhensu Sun, Yuling Shi, Chao Peng, Xiaodong Gu, David Lo, Lingxiao Jiang</p>
         <p>Under review.</p>
@@ -134,7 +134,7 @@ redirect_from:
       </article>
 
       <article class="pub-card">
-        <p class="pub-card__meta">TSE 2026 | Third author</p>
+        <p class="pub-card__meta pub-card__meta--journal">TSE 2026 | Third author</p>
         <h3>ConfuScope: A Multi-Agent Framework via Hybrid Search and Content-Aware Analysis for Robust Package Confusion Detection</h3>
         <p>Yu Li, Wei Ma, <strong>Zhi Chen</strong>, Ye Liu, Lingxiao Jiang, Junyi Tao, Hao Liu, Yongqiang Lyu, Qiang Hu</p>
         <p>IEEE Transactions on Software Engineering (TSE), 2026.</p>
@@ -142,7 +142,7 @@ redirect_from:
       </article>
 
       <article class="pub-card">
-        <p class="pub-card__meta">ML4CS 2025 | Third author</p>
+        <p class="pub-card__meta pub-card__meta--conference">ML4CS 2025 | Third author</p>
         <h3>AgentGuard: An Active Threat Discovery System for Package Confusion Using Multi-Agent Collaboration</h3>
         <p>Wei Ma, Yu Li, <strong>Zhi Chen</strong>, Ye Liu, Lingxiao Jiang, Qiang Hu, Junyi Tao</p>
         <p>7th International Conference on Machine Learning for Cyber Security (ML4CS 2025).</p>
@@ -150,7 +150,7 @@ redirect_from:
       </article>
 
       <article class="pub-card">
-        <p class="pub-card__meta">arXiv preprint | Second author</p>
+        <p class="pub-card__meta pub-card__meta--preprint">arXiv preprint | Second author</p>
         <h3>Same Signal, Different Semantics: A Cross-Framework Behavioral Analysis of Software Engineering Agents</h3>
         <p>Wei Ma, <strong>Zhi Chen</strong>, Jingxu Gu, Tianling Li, Shangqing Liu, Lingxiao Jiang</p>
         <p>arXiv preprint arXiv:2605.18332.</p>
@@ -158,7 +158,7 @@ redirect_from:
       </article>
 
       <article class="pub-card">
-        <p class="pub-card__meta">arXiv preprint | Third author</p>
+        <p class="pub-card__meta pub-card__meta--preprint">arXiv preprint | Third author</p>
         <h3>Executing as You Generate: Hiding Execution Latency in LLM Code Interpreters</h3>
         <p>Zhensu Sun, Zhihao Lin, <strong>Zhi Chen</strong>, Chengran Yang, Mingyi Zhou, Li Li, David Lo</p>
         <p>arXiv preprint arXiv:2604.00491.</p>
@@ -166,7 +166,7 @@ redirect_from:
       </article>
 
       <article class="pub-card">
-        <p class="pub-card__meta">arXiv preprint | Second author</p>
+        <p class="pub-card__meta pub-card__meta--preprint">arXiv preprint | Second author</p>
         <h3>Reinforcement Learning Foundations for Deep Research Systems: A Survey</h3>
         <p>Wenjun Li, <strong>Zhi Chen</strong>, Jingru Lin, Hannan Cao, Wei Han, Sheng Liang, Zhi Zhang, Kuicai Dong, Dexun Li, Chen Zhang, Yong Liu</p>
         <p>arXiv preprint arXiv:2509.06733.</p>
