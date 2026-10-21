@@ -1,183 +1,329 @@
 ---
-layout: minimal-home
 permalink: /
 title: ""
 author_profile: false
 show_meta: false
-redirect_from:
+redirect_from: 
   - /about/
   - /about.html
 ---
 
-<section id="about" class="minimal-section minimal-section--first">
-  <h2>About Me</h2>
-  <p>
-    I am a Ph.D. student in Computer Science at
-    <a href="https://www.smu.edu.sg/" target="_blank" rel="noopener">Singapore Management University (SMU)</a>,
-    where I am a member of the
-    <a href="https://rise.smu.edu.sg/" target="_blank" rel="noopener">Centre for Research on Intelligent Software Engineering (RISE)</a>
-    and am advised by
-    <a href="https://faculty.smu.edu.sg/profile/jiang-lingxiao-896" target="_blank" rel="noopener">Prof. Lingxiao Jiang</a>.
-    Before starting my Ph.D., I earned an M.Sc. in Computing from SMU and worked as a software engineer for two years.
-  </p>
-  <p>
-    My work focuses on practical Code AI systems, including large code models and software engineering agents, with the goal of bridging academic insights and real-world software development.
-  </p>
-</section>
+<div class="home-onepage">
+  <section id="about" class="home-hero">
+    <div class="home-hero__content">
+      <p class="home-kicker">Academic Homepage</p>
+      <h1>Zhi Chen <span>(陈智)</span></h1>
+      <p class="home-tagline">
+        PhD student and intelligent software engineering researcher focused on practical Code AI systems.
+      </p>
+      <p class="home-summary">
+        With a consistent B.Eng., M.Sc., and Ph.D. focus in Software Engineering, I have built strong foundations and gained two years of full-time industry experience as a software engineer. I am currently a PhD student at the <a href="https://rise.smu.edu.sg/" target="_blank" rel="noopener">Centre for Research on Intelligent Software Engineering (RISE)</a>, advised by <a href="https://faculty.smu.edu.sg/profile/jiang-lingxiao-896" target="_blank" rel="noopener">Prof. Lingxiao Jiang</a>. My research focuses on practical Code AI systems, including large code models and software engineering agents, bridging academic insights with real-world applications.
+      </p>
+      <div class="home-actions">
+        <a href="#publications" class="home-btn">View Publications</a>
+        <a href="#experience" class="home-btn">View Experience</a>
+        <a href="{{ '/files/Zhi_Chen_Resume.pdf' | relative_url }}" class="home-btn" target="_blank" rel="noopener">Download Resume</a>
+        <a href="mailto:zhi.chen.2023@phdcs.smu.edu.sg" class="home-btn">Email Me</a>
+      </div>
+    </div>
+    <aside class="home-hero__panel">
+      <div class="home-profile-photo">
+        <img src="{{ '/images/me.jpg' | relative_url }}" alt="Zhi Chen profile photo">
+      </div>
+      <h2>Quick Links</h2>
+      <ul class="home-link-list">
+        <li>
+          <a href="https://scholar.google.com/citations?user=vRIKYD8AAAAJ&hl=en&oi=ao" target="_blank" rel="noopener">
+            <i class="ai ai-google-scholar" aria-hidden="true"></i>
+            <span>Google Scholar</span>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/zhi-chen-838aa3195" target="_blank" rel="noopener">
+            <i class="fab fa-linkedin" aria-hidden="true"></i>
+            <span>LinkedIn</span>
+          </a>
+        </li>
+        <li>
+          <a href="https://orcid.org/0009-0006-4631-9174" target="_blank" rel="noopener">
+            <i class="ai ai-orcid" aria-hidden="true"></i>
+            <span>ORCID</span>
+          </a>
+        </li>
+        <li>
+          <a href="{{ '/files/Zhi_Chen_Resume.pdf' | relative_url }}" target="_blank" rel="noopener">
+            <i class="fas fa-file-pdf" aria-hidden="true"></i>
+            <span>Resume</span>
+          </a>
+        </li>
+      </ul>
+    </aside>
+  </section>
 
-<section id="research" class="minimal-section">
-  <h2>Research Interests</h2>
-  <p>
-    My research interests broadly lie in <strong>AI-driven software development</strong>,
-    <strong>software engineering agents</strong>, and <strong>large code models</strong>.
-    I study how coding agents work in real repositories, how their behavior and outputs should be evaluated, and how they can be made more effective, efficient, and reliable in practice.
-  </p>
-</section>
+  <section id="research" class="home-section">
+    <div class="home-section__head">
+      <p class="home-kicker">Research</p>
+      <h2>Current Focus</h2>
+    </div>
+    <div class="home-card-grid">
+      <article class="home-card">
+        <h3>AI-Driven Software Development</h3>
+        <p>
+          Building practical Code AI systems that bridge academic insights and real-world software engineering applications.
+        </p>
+      </article>
+      <article class="home-card">
+        <h3>Software Engineering Agents</h3>
+        <p>
+          Studying agent behavior, patch quality, development processes, testing, performance optimization, and robustness in real-world repositories.
+        </p>
+      </article>
+      <article class="home-card">
+        <h3>Large Code Models</h3>
+        <p>
+          Improving code generation capability while evaluating effectiveness, memorization risk, and trustworthiness.
+        </p>
+      </article>
+    </div>
+  </section>
 
-<section id="news" class="minimal-section">
-  <h2>News</h2>
-  <ul class="minimal-list news-list">
-    <li><span class="item-date">2026</span> Our work on the reliability of performance-optimization benchmarks has been accepted to <strong>ICSE 2027</strong>.</li>
-    <li><span class="item-date">2026</span> Our process-oriented analysis of software development agents appears at <strong>ICSE 2026</strong>.</li>
-  </ul>
-</section>
+  <section id="publications" class="home-section">
+    <div class="home-section__head">
+      <p class="home-kicker">Publications</p>
+      <h2>Publications</h2>
+    </div>
+    <div class="pub-grid">
+      <article class="pub-card">
+        <p class="pub-card__meta">ICSE 2026 | First author</p>
+        <h3>Beyond Final Code: A Process-Oriented Error Analysis of Software Development Agents in Real-World GitHub Scenarios</h3>
+        <p><strong>Zhi Chen</strong>, Wei Ma, Lingxiao Jiang</p>
+        <p>48th International Conference on Software Engineering (ICSE 2026), Research Track.</p>
+        <p class="pub-card__links"><a href="https://arxiv.org/pdf/2503.12374" target="_blank" rel="noopener">Paper</a></p>
+      </article>
 
-<section id="publications" class="minimal-section">
-  <h2>Publications</h2>
-  <ol class="publication-list">
-    <li>
-      <p class="paper-title"><a href="https://arxiv.org/pdf/2607.01211" target="_blank" rel="noopener">Are Performance-Optimization Benchmarks Reliably Measuring Coding Agents?</a></p>
-      <p><strong class="author-me">Zhi Chen</strong>, Zhensu Sun, Yuling Shi, David Lo, Lingxiao Jiang</p>
-      <p>49th IEEE/ACM International Conference on Software Engineering (<strong>ICSE</strong>), 2027. <span class="paper-status">ICSE 2027</span></p>
-    </li>
-    <li>
-      <p class="paper-title"><a href="https://arxiv.org/pdf/2503.12374" target="_blank" rel="noopener">Beyond Final Code: A Process-Oriented Error Analysis of Software Development Agents in Real-World GitHub Scenarios</a></p>
-      <p><strong class="author-me">Zhi Chen</strong>, Wei Ma, Lingxiao Jiang</p>
-      <p>48th International Conference on Software Engineering (<strong>ICSE</strong>), 2026. <span class="paper-status">ICSE 2026</span></p>
-    </li>
-    <li>
-      <p class="paper-title"><a href="https://arxiv.org/pdf/2410.12468" target="_blank" rel="noopener">Evaluating Software Development Agents: Patch Patterns, Code Quality, and Issue Complexity in Real-World GitHub Scenarios</a></p>
-      <p><strong class="author-me">Zhi Chen</strong>, Lingxiao Jiang</p>
-      <p>32nd IEEE International Conference on Software Analysis, Evolution, and Reengineering (<strong>SANER</strong>), 2025. <span class="paper-status">SANER 2025</span></p>
-    </li>
-    <li>
-      <p class="paper-title"><a href="https://arxiv.org/pdf/2409.12020" target="_blank" rel="noopener">Promise and Peril of Collaborative Code Generation Models: Balancing Effectiveness and Memorization</a></p>
-      <p><strong class="author-me">Zhi Chen</strong>, Lingxiao Jiang</p>
-      <p>39th IEEE/ACM International Conference on Automated Software Engineering (<strong>ASE</strong>), 2024. <span class="paper-status">ASE 2024</span></p>
-    </li>
-    <li>
-      <p class="paper-title"><a href="https://arxiv.org/pdf/2602.07900" target="_blank" rel="noopener">Rethinking the Value of Agent-Generated Tests for LLM-Based Software Engineering Agents</a></p>
-      <p><strong class="author-me">Zhi Chen</strong>, Zhensu Sun, Yuling Shi, Chao Peng, Xiaodong Gu, David Lo, Lingxiao Jiang</p>
-      <p>Under review. <span class="paper-status paper-status--review">Under Review</span></p>
-    </li>
-    <li>
-      <p class="paper-title"><a href="https://arxiv.org/pdf/2604.16309" target="_blank" rel="noopener">ConfuScope: A Multi-Agent Framework via Hybrid Search and Content-Aware Analysis for Robust Package Confusion Detection</a></p>
-      <p>Yu Li, Wei Ma, <strong class="author-me">Zhi Chen</strong>, Ye Liu, Lingxiao Jiang, Junyi Tao, Hao Liu, Yongqiang Lyu, Qiang Hu</p>
-      <p>IEEE Transactions on Software Engineering (<strong>TSE</strong>), 2026. <span class="paper-status">TSE 2026</span></p>
-    </li>
-    <li>
-      <p class="paper-title"><a href="https://ink.library.smu.edu.sg/cgi/viewcontent.cgi?article=11639&amp;context=sis_research" target="_blank" rel="noopener">AgentGuard: An Active Threat Discovery System for Package Confusion Using Multi-Agent Collaboration</a></p>
-      <p>Wei Ma, Yu Li, <strong class="author-me">Zhi Chen</strong>, Ye Liu, Lingxiao Jiang, Qiang Hu, Junyi Tao</p>
-      <p>7th International Conference on Machine Learning for Cyber Security (<strong>ML4CS</strong>), 2025. <span class="paper-status">ML4CS 2025</span></p>
-    </li>
-    <li>
-      <p class="paper-title"><a href="https://arxiv.org/pdf/2605.18332" target="_blank" rel="noopener">Same Signal, Different Semantics: A Cross-Framework Behavioral Analysis of Software Engineering Agents</a></p>
-      <p>Wei Ma, <strong class="author-me">Zhi Chen</strong>, Jingxu Gu, Tianling Li, Shangqing Liu, Lingxiao Jiang</p>
-      <p>arXiv preprint. <span class="paper-status paper-status--preprint">arXiv</span></p>
-    </li>
-    <li>
-      <p class="paper-title"><a href="https://arxiv.org/pdf/2604.00491" target="_blank" rel="noopener">Executing as You Generate: Hiding Execution Latency in LLM Code Interpreters</a></p>
-      <p>Zhensu Sun, Zhihao Lin, <strong class="author-me">Zhi Chen</strong>, Chengran Yang, Mingyi Zhou, Li Li, David Lo</p>
-      <p>arXiv preprint. <span class="paper-status paper-status--preprint">arXiv</span></p>
-    </li>
-    <li>
-      <p class="paper-title"><a href="https://arxiv.org/pdf/2509.06733" target="_blank" rel="noopener">Reinforcement Learning Foundations for Deep Research Systems: A Survey</a></p>
-      <p>Wenjun Li, <strong class="author-me">Zhi Chen</strong>, Jingru Lin, Hannan Cao, Wei Han, Sheng Liang, Zhi Zhang, Kuicai Dong, Dexun Li, Chen Zhang, Yong Liu</p>
-      <p>arXiv preprint. <span class="paper-status paper-status--preprint">arXiv</span></p>
-    </li>
-  </ol>
-</section>
+      <article class="pub-card">
+        <p class="pub-card__meta">SANER 2025 | First author</p>
+        <h3>Evaluating Software Development Agents: Patch Patterns, Code Quality, and Issue Complexity in Real-World GitHub Scenarios</h3>
+        <p><strong>Zhi Chen</strong>, Lingxiao Jiang</p>
+        <p>32nd International Conference on Software Analysis, Evolution, and Reengineering (SANER 2025), Research Track.</p>
+        <p class="pub-card__links"><a href="https://arxiv.org/pdf/2410.12468" target="_blank" rel="noopener">Paper</a></p>
+      </article>
 
-<section id="experience" class="minimal-section">
-  <h2>Experience</h2>
-  <ul class="entry-list">
-    <li>
-      <div class="entry-heading"><strong>TikTok, AI Innovation Center</strong><span>Dec. 2025 – Present</span></div>
-      <p>Research &amp; Development Intern · Singapore</p>
-      <p>Building an end-to-end multi-agent system for production code optimization, spanning hotspot localization, patch generation, CPU evaluation, deployment, and performance validation.</p>
-    </li>
-    <li>
-      <div class="entry-heading"><strong>Huawei, Noah's Ark Lab</strong><span>Apr. 2025 – Aug. 2025</span></div>
-      <p>Research Intern · Singapore</p>
-      <p>Developed a LangGraph-based deep-research agent integrating web and arXiv search for knowledge synthesis and literature review generation.</p>
-    </li>
-    <li>
-      <div class="entry-heading"><strong>Sea Limited, Sea Labs</strong><span>Aug. 2022 – Jul. 2023</span></div>
-      <p>Software Engineer · Singapore</p>
-      <p>Built and launched a production survey platform from 0 to 1, including backend services, data aggregation, visualization, and CI/CD.</p>
-    </li>
-    <li>
-      <div class="entry-heading"><strong>Shanghai Baosight Software Co., Ltd.</strong><span>Jul. 2020 – Jul. 2021</span></div>
-      <p>Software Engineer · Shanghai, China</p>
-      <p>Developed a blockchain-based supply-chain finance system for tokenized warehouse receipts and traceable logistics operations.</p>
-    </li>
-    <li>
-      <div class="entry-heading"><strong>Lenovo Group, LCFC</strong><span>Oct. 2019 – Feb. 2020</span></div>
-      <p>Software Engineer Intern · Hefei, China</p>
-      <p>Built APIs and dashboards for visual inspection datasets and helped migrate the core system from .NET to Java.</p>
-    </li>
-  </ul>
-</section>
+      <article class="pub-card">
+        <p class="pub-card__meta">ASE 2024 | First author</p>
+        <h3>Promise and Peril of Collaborative Code Generation Models: Balancing Effectiveness and Memorization</h3>
+        <p><strong>Zhi Chen</strong>, Lingxiao Jiang</p>
+        <p>39th International Conference on Automated Software Engineering (ASE 2024), Research Track.</p>
+        <p class="pub-card__links"><a href="https://arxiv.org/pdf/2409.12020" target="_blank" rel="noopener">Paper</a></p>
+      </article>
 
-<section id="education" class="minimal-section">
-  <h2>Education</h2>
-  <ul class="entry-list entry-list--compact">
-    <li>
-      <div class="entry-heading"><strong>Singapore Management University</strong><span>Aug. 2023 – Present</span></div>
-      <p>Ph.D. in Computer Science · RISE Centre · Advisor: Prof. Lingxiao Jiang</p>
-    </li>
-    <li>
-      <div class="entry-heading"><strong>Singapore Management University</strong><span>Aug. 2021 – Aug. 2022</span></div>
-      <p>M.Sc. in Computing (Software &amp; Cyber-Physical Systems) · GPA: 3.80/4</p>
-    </li>
-    <li>
-      <div class="entry-heading"><strong>Hefei University of Technology</strong><span>Sep. 2016 – Jul. 2020</span></div>
-      <p>B.Eng. in Software Engineering · Grade: 85.07/100</p>
-    </li>
-    <li>
-      <div class="entry-heading"><strong>National Yunlin University of Science &amp; Technology</strong><span>Feb. 2018 – Jun. 2018</span></div>
-      <p>Exchange Student in Computer Science and Information Engineering · GPA: 3.68/4</p>
-    </li>
-  </ul>
-</section>
+      <article class="pub-card">
+        <p class="pub-card__meta">arXiv preprint | First author</p>
+        <h3>Rethinking the Value of Agent-Generated Tests for LLM-Based Software Engineering Agents</h3>
+        <p><strong>Zhi Chen</strong>, Zhensu Sun, Yuling Shi, Chao Peng, Xiaodong Gu, David Lo, Lingxiao Jiang</p>
+        <p>arXiv preprint arXiv:2602.07900.</p>
+        <p class="pub-card__links"><a href="https://arxiv.org/abs/2602.07900" target="_blank" rel="noopener">Paper</a></p>
+      </article>
 
-<section id="awards" class="minimal-section">
-  <h2>Selected Awards</h2>
-  <ul class="minimal-list awards-list">
-    <li><span class="item-date">2026</span> Nominated for Global Young Scientists Summit (GYSS) 2027, SMU</li>
-    <li><span class="item-date">2025–2026</span> SMU Presidential Doctoral Fellowship</li>
-    <li><span class="item-date">2023</span> SMU Research Scholarship</li>
-    <li><span class="item-date">2021</span> Merit Award, SMU</li>
-    <li><span class="item-date">2018</span> Golden Prize, Fifth Internet Innovation Competition, Hefei University of Technology</li>
-    <li><span class="item-date">2017</span> Second-Class Merit-Based Scholarship, Hefei University of Technology</li>
-  </ul>
-</section>
+      <article class="pub-card">
+        <p class="pub-card__meta">arXiv preprint | First author</p>
+        <h3>Are Performance-Optimization Benchmarks Reliably Measuring Coding Agents?</h3>
+        <p><strong>Zhi Chen</strong>, Zhensu Sun, Yuling Shi, David Lo, Lingxiao Jiang</p>
+        <p>arXiv preprint arXiv:2607.01211.</p>
+        <p class="pub-card__links"><a href="https://arxiv.org/pdf/2607.01211" target="_blank" rel="noopener">Paper</a></p>
+      </article>
 
-<section id="service" class="minimal-section">
-  <h2>Academic Service</h2>
-  <p><strong>Reviewer:</strong> ACM Transactions on Software Engineering and Methodology (TOSEM)</p>
-</section>
+      <article class="pub-card">
+        <p class="pub-card__meta">ML4CS 2025 | Third author</p>
+        <h3>AgentGuard: An Active Threat Discovery System for Package Confusion Using Multi-Agent Collaboration</h3>
+        <p>Wei Ma, Yu Li, <strong>Zhi Chen</strong>, Ye Liu, Lingxiao Jiang, Qiang Hu, Junyi Tao</p>
+        <p>Proceedings of the 7th International Conference on Machine Learning for Cyber Security (ML4CS 2025).</p>
+        <p class="pub-card__links"><a href="https://ink.library.smu.edu.sg/cgi/viewcontent.cgi?article=11639&amp;context=sis_research" target="_blank" rel="noopener">Paper</a></p>
+      </article>
 
-<section id="contact" class="minimal-section minimal-section--last">
-  <h2>Contact</h2>
-  <p>
-    I am open to collaborations on practical Code AI systems, software engineering agents, and large code models.
-    Please feel free to reach me at
-    <a href="mailto:zhi.chen.2023@phdcs.smu.edu.sg">zhi.chen.2023@phdcs.smu.edu.sg</a>.
-  </p>
-  <div class="visitor-map">
-    <a href="https://info.flagcounter.com/dgi0" target="_blank" rel="noopener">
-      <img src="https://s01.flagcounter.com/map/dgi0/size_m/txt_043361/border_DDDDDD/pageviews_1/viewers_1/flags_0/" alt="Visitor map and count">
-    </a>
-  </div>
-</section>
+      <article class="pub-card">
+        <p class="pub-card__meta">TSE 2026 | Third author</p>
+        <h3>ConfuScope: A Multi-Agent Framework via Hybrid Search and Content-Aware Analysis for Robust Package Confusion Detection</h3>
+        <p>Yu Li, Wei Ma, <strong>Zhi Chen</strong>, Ye Liu, Lingxiao Jiang, Junyi Tao, Hao Liu, Yongqiang Lyu, Qiang Hu</p>
+        <p>Accepted for publication in IEEE Transactions on Software Engineering (TSE).</p>
+        <p class="pub-card__links"><a href="https://arxiv.org/abs/2604.16309" target="_blank" rel="noopener">Paper</a></p>
+      </article>
+
+      <article class="pub-card">
+        <p class="pub-card__meta">arXiv preprint | Third author</p>
+        <h3>Executing as You Generate: Hiding Execution Latency in LLM Code Generation</h3>
+        <p>Zhensu Sun, Zicheng Lin, <strong>Zhi Chen</strong>, Chenguang Yang, Ming Zhou, Lijun Li, David Lo</p>
+        <p>arXiv preprint arXiv:2604.00491.</p>
+        <p class="pub-card__links"><a href="https://arxiv.org/pdf/2604.00491" target="_blank" rel="noopener">Paper</a></p>
+      </article>
+
+      <article class="pub-card">
+        <p class="pub-card__meta">arXiv preprint | Second author</p>
+        <h3>Reinforcement Learning Foundations for Deep Research Systems: A Survey</h3>
+        <p>Wenjun Li, <strong>Zhi Chen</strong>, Jingru Lin, Hannan Cao, Wei Han, Sheng Liang, Zhi Zhang, Kuicai Dong, Dexun Li, Chen Zhang, Yong Liu</p>
+        <p>arXiv preprint arXiv:2509.06733.</p>
+        <p class="pub-card__links"><a href="https://arxiv.org/pdf/2509.06733" target="_blank" rel="noopener">Paper</a></p>
+      </article>
+
+      <article class="pub-card">
+        <p class="pub-card__meta">Manuscript | Fifth author</p>
+        <h3>Speculative Forking: Turning Idle Wait into Parallel Exploration for Repository Environment Setup</h3>
+        <p>Yuling Shi, Mingchu Zhong, Zhensu Sun, Weihan Peng, <strong>Zhi Chen</strong>, Shilin He, Chengcheng Wan, Kai Cai, Hongyu Zhang, David Lo, Xiaodong Gu</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="experience" class="home-section">
+    <div class="home-section__head">
+      <p class="home-kicker">Experience</p>
+      <h2>Professional Experience</h2>
+    </div>
+    <div class="timeline">
+      <article class="timeline__item">
+        <p class="timeline__date">Dec. 2025 - Present</p>
+        <h3>TikTok | AI Innovation Center</h3>
+        <p><strong>Research &amp; Development Intern</strong> | Singapore</p>
+        <p><strong>Project:</strong> Multi-Agent Systems for Code Optimization</p>
+        <p>Built an end-to-end multi-agent system covering hotspot localization, optimization generation, and performance evaluation. Co-designed the system pipeline; analyzed agent trajectories and refined agent behaviors; enhanced the CPU-gain evaluation platform to support reliable optimization assessment, SFT data curation, and RL reward computation.</p>
+      </article>
+      <article class="timeline__item">
+        <p class="timeline__date">Apr. 2025 - Aug. 2025</p>
+        <h3>Huawei | Noah's Ark Lab</h3>
+        <p><strong>Research Intern</strong> | Singapore</p>
+        <p><strong>Project:</strong> Deep-Research Agent - Knowledge Integration and Literature Review Assistant</p>
+        <p>Built a modular LangGraph-based agent integrating web and arXiv search for knowledge synthesis and a proof-of-concept literature review generator. Refactored the original demo, implemented multi-step retrieval and summarization pipelines, and contributed to a survey on reinforcement learning for deep research agents.</p>
+      </article>
+      <article class="timeline__item">
+        <p class="timeline__date">Aug. 2022 - Jul. 2023</p>
+        <h3>Sea Limited | Sea Labs</h3>
+        <p><strong>Software Engineer</strong> | Singapore</p>
+        <p><strong>Project:</strong> “Loop” - Survey Platform for Product Incubation</p>
+        <p>Launched a production-ready survey platform from 0 to 1 and established its CI/CD pipeline. Developed authentication, survey configuration, notification, and cron modules; implemented data aggregation with goroutines and Redis caching; and visualized survey insights.</p>
+      </article>
+      <article class="timeline__item">
+        <p class="timeline__date">Jul. 2020 - Jul. 2021</p>
+        <h3>Shanghai Baosight Software Co., Ltd. | Cloud Application Department</h3>
+        <p><strong>Software Engineer</strong> | Shanghai, China</p>
+        <p><strong>Project:</strong> Blockchain-based Supply Chain Finance System</p>
+        <p>Delivered a secure system for tokenized warehouse receipts and traceable logistics operations, with smart contracts deployed on an Ethereum-compatible blockchain. Implemented asynchronous blockchain callbacks and the certification generation module.</p>
+      </article>
+      <article class="timeline__item">
+        <p class="timeline__date">Oct. 2019 - Feb. 2020</p>
+        <h3>Lenovo Group, LCFC (Hefei) Electronics Technology Co., Ltd. | R&amp;D Department</h3>
+        <p><strong>Software Engineer Intern</strong> | Hefei, China</p>
+        <p><strong>Project:</strong> Model-Based Inspection System</p>
+        <p>Delivered web APIs and frontend dashboards for systematic management of visual inspection datasets and migrated the core inspection system from .NET to a Java-based architecture.</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="education" class="home-section">
+    <div class="home-section__head">
+      <p class="home-kicker">Education</p>
+      <h2>Academic Background</h2>
+    </div>
+    <div class="home-card-grid">
+      <article class="home-card">
+        <h3>Singapore Management University</h3>
+        <p>Ph.D. in Computer Science</p>
+        <p>Centre for Research on Intelligent Software Engineering (RISE Centre)</p>
+        <p>Advisor: Prof. Lingxiao Jiang</p>
+        <p>Research area: AI-Driven Software Development, Software Engineering Agents, Large Code Models</p>
+        <p class="item-meta">Aug. 2023 - Present | Singapore</p>
+      </article>
+      <article class="home-card">
+        <h3>Singapore Management University</h3>
+        <p>M.Sc. in Computing (Track: Software &amp; Cyber-Physical Systems), School of Computing and Information Systems</p>
+        <p class="item-meta">Aug. 2021 - Aug. 2022 | GPA: 3.80/4</p>
+      </article>
+      <article class="home-card">
+        <h3>Hefei University of Technology</h3>
+        <p>B.Eng. in Software Engineering, School of Software</p>
+        <p class="item-meta">Sep. 2016 - Jul. 2020 | Grade: 85.07/100</p>
+      </article>
+      <article class="home-card">
+        <h3>National Yunlin University of Science and Technology</h3>
+        <p>Exchange Student, Department of Computer Science and Information Engineering</p>
+        <p class="item-meta">Feb. 2018 - Jun. 2018 | GPA: 3.68/4</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="awards" class="home-section">
+    <div class="home-section__head">
+      <p class="home-kicker">Recognition</p>
+      <h2>Awards</h2>
+    </div>
+    <div class="award-grid">
+      <article class="award-item">
+        <h3>Nominated for Global Young Scientists Summit (GYSS) 2027</h3>
+        <p>Singapore Management University | 2026 | Singapore</p>
+      </article>
+      <article class="award-item">
+        <h3>SMU Presidential Doctoral Fellowship</h3>
+        <p>Singapore Management University | 2026 | Singapore</p>
+      </article>
+      <article class="award-item">
+        <h3>SMU Presidential Doctoral Fellowship</h3>
+        <p>Singapore Management University | 2025 | Singapore</p>
+      </article>
+      <article class="award-item">
+        <h3>SMU Research Scholarship</h3>
+        <p>Singapore Management University | 2023 | Singapore</p>
+      </article>
+      <article class="award-item">
+        <h3>Merit Award</h3>
+        <p>Singapore Management University | 2021 | Singapore</p>
+      </article>
+      <article class="award-item">
+        <h3>Golden Prize in Fifth Internet Innovation Competition</h3>
+        <p>Hefei University of Technology | 2018 | Anhui, China</p>
+      </article>
+      <article class="award-item">
+        <h3>Second-Class Merit-Based Scholarship</h3>
+        <p>Hefei University of Technology | 2017 | Anhui, China</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="service" class="home-section">
+    <div class="home-section__head">
+      <p class="home-kicker">Service</p>
+      <h2>Academic Service</h2>
+    </div>
+    <div class="home-card-grid">
+      <article class="home-card">
+        <h3>Reviewer</h3>
+        <p>ACM Transactions on Software Engineering and Methodology (TOSEM)</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="contact" class="home-section home-section--contact">
+    <div class="home-section__head">
+      <p class="home-kicker">Contact</p>
+      <h2>Open for Collaboration</h2>
+    </div>
+    <div class="contact-card">
+      <p>
+        I am open to collaborations on practical Code AI systems, software engineering agents, and large code models, especially work that bridges academic insights with real-world applications.
+      </p>
+      <p>
+        Email: <a href="mailto:zhi.chen.2023@phdcs.smu.edu.sg">zhi.chen.2023@phdcs.smu.edu.sg</a>
+      </p>
+      <p class="contact-links">
+        <a href="https://scholar.google.com/citations?user=vRIKYD8AAAAJ&hl=en&oi=ao" target="_blank" rel="noopener">Scholar</a>
+        <a href="https://orcid.org/0009-0006-4631-9174" target="_blank" rel="noopener">ORCID</a>
+        <a href="https://www.linkedin.com/in/zhi-chen-838aa3195" target="_blank" rel="noopener">LinkedIn</a>
+      </p>
+    </div>
+  </section>
+
+  <section id="visitors" class="home-section home-section--visitors">
+    <div class="visitor-map">
+      <a href="https://info.flagcounter.com/dgi0" target="_blank" rel="noopener">
+        <img src="https://s01.flagcounter.com/map/dgi0/size_m/txt_1D3657/border_CFE0F2/pageviews_1/viewers_1/flags_0/" alt="Visitor map and count">
+      </a>
+    </div>
+  </section>
+</div>
